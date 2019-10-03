@@ -1,0 +1,40 @@
+.layout {
+	.actions-container {
+		display: flex;
+		justify-content: flex-end;
+		.add-button {
+			background: #5bb334;
+			border-radius: 5px;
+			color: #ffffff;
+			border: 1px solid #9ceb77;
+			font-size: 17px;
+			padding: 7px 12px;
+			margin: 6px 0;
+			font-family: 'Open Sans', sans-serif;
+			margin-top: 30px;
+			transition: 0.2s all ease-in-out;
+			filter: drop-shadow(1px 1px 1px rgba(121, 121, 121, 0.2));
+
+			&:hover {
+				color: #5bb334;
+				background: #fff;
+				border: 1px solid #5bb334;
+			}
+			&:active {
+				border: 1px solid #5bb334 !important;
+				box-shadow: none !important;
+				background: #5bb334 !important;
+			}
+			&:focus {
+				box-shadow: none !important;
+			}
+		}
+	}
+}
+
+.layout {
+	height: 100%;
+	padding-bottom: 57px;
+	min-height: 100vh;
+	position: relative;
+}

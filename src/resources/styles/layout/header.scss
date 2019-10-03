@@ -1,0 +1,18 @@
+.application-header {
+	.navbar {
+		width: 100%;
+		border-bottom: 1px solid #cbcbcb;
+		filter: drop-shadow(0 1px 1px rgba(121, 121, 121, 0.2));
+
+		a {
+			color: rgba(0, 0, 0, 0.5);
+
+			&:hover {
+				color: rgba(0, 0, 0, 0.7);
+			}
+		}
+		.home-link {
+			font-size: 20px;
+		}
+	}
+}
